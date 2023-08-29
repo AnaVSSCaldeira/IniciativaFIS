@@ -118,6 +118,7 @@ public class QuestionsAndAnswers : MonoBehaviour
         }
         else if (questionNumber == 4)
         {
+            Time.timeScale = 0;
             qA.SetActive(false);
             finalGame.SetActive(true);
             GameManager.instance.timerText.gameObject.SetActive(false);
