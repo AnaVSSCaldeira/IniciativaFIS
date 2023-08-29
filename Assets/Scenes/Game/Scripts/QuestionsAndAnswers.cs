@@ -102,7 +102,7 @@ public class QuestionsAndAnswers : MonoBehaviour
             btnC.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Descartar todos os tipos de lixo no mesmo local";
             btnD.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Compartilhar objetos pessoais com os vizinhos";
             GameManager.instance.timer = 0f;
-            GameManager.instance.totalSecond = 15f;
+            GameManager.instance.totalSecond = 25f;
             GameManager.instance.second = 1f;
         }
         else if(questionNumber == 3)
@@ -113,7 +113,7 @@ public class QuestionsAndAnswers : MonoBehaviour
             btnC.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Redução da conscientização ambiental";
             btnD.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Aumento das emissões de gases de efeito estufa";
             GameManager.instance.timer = 0f;
-            GameManager.instance.totalSecond = 10f;
+            GameManager.instance.totalSecond = 25f;
             GameManager.instance.second = 1f;
         }
         else if (questionNumber == 4)

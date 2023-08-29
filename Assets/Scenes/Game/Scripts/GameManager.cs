@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         pointsCount.text = point.ToString() + "/3";
-        totalSecond = 20f;
+        totalSecond = 25f;
     }
 
     // Update is called once per frame
